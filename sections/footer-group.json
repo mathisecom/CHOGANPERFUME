@@ -92,6 +92,7 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
+            "image": "shopify://shop_images/cropped-Logo-Chogan-2-white-200x67.webp",
             "image_width": 150,
             "heading_size": "h4",
             "title": "Newsletter",
