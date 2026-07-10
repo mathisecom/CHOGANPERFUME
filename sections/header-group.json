@@ -42,6 +42,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
+        "logo": "shopify://shop_images/cropped-Logo-Chogan-2-white-200x67.webp",
         "logo_max_width": 120,
         "logo_mobile_max_width": 115,
         "menu": "main-menu",
