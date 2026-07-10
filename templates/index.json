@@ -51,6 +51,61 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "collection_list_6iVWqy": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_CgQ9b3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_Fxt4UA": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_CgQ9b3",
+        "collection_Fxt4UA"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "2",
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "featured_collection_t7zYLb": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -110,6 +165,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/Luxury_Collection_Olfazeta_After_8bd18c01-b9a9-481d-9a64-08126ed04c99.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -124,6 +180,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/1712067996_documents.pdf_1__After_After.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -138,6 +195,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/Gel_douche_Hover_After.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -364,6 +422,7 @@
   },
   "order": [
     "slideshow",
+    "collection_list_6iVWqy",
     "featured_collection_t7zYLb",
     "rich_text_FW8QPp",
     "collection_list_Aih89M",
