@@ -20,10 +20,18 @@
             "text": "ÉCHANTILLONS OFFERTS À CHAQUE COMMANDE",
             "url": ""
           }
+        },
+        "message_bqmxgh": {
+          "type": "message",
+          "settings": {
+            "text": "Announce something here",
+            "url": ""
+          }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_bqmxgh"
       ],
       "settings": {
         "enable_sticky": false,
