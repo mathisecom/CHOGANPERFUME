@@ -85,10 +85,10 @@
           "settings": {
             "collection": "",
             "subheading": "",
-            "title": "",
+            "title": "Homme",
             "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h5",
+            "text_position": "place-self-end-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -99,10 +99,10 @@
           "settings": {
             "collection": "",
             "subheading": "",
-            "title": "",
+            "title": "Femme",
             "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h5",
+            "text_position": "place-self-end-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
