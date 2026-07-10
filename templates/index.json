@@ -77,6 +77,102 @@
         "product_card_text_color": ""
       }
     },
+    "rich_text_FW8QPp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_G3EXcD": {
+          "type": "heading",
+          "settings": {
+            "text": "Nos Collections",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_G3EXcD"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#FAF7F6",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "collection_list_Aih89M": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_ky9DGr": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_dh3exn": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_THHJrp": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_ky9DGr",
+        "collection_dh3exn",
+        "collection_THHJrp"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#FAF7F6",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "featured_collection_wV9rrf": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -253,6 +349,8 @@
   "order": [
     "slideshow",
     "featured_collection_t7zYLb",
+    "rich_text_FW8QPp",
+    "collection_list_Aih89M",
     "featured_collection_wV9rrf",
     "rich_text_VRUcrj",
     "testimonials_3KBdEb",
