@@ -84,6 +84,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/mencollection.webp",
             "subheading": "",
             "title": "Homme",
             "url": "",
@@ -98,6 +99,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/womencollection.webp",
             "subheading": "",
             "title": "Femme",
             "url": "",
