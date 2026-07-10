@@ -51,6 +51,32 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "rich_text_fMLAg9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YhEGJQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Nos Parfums",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_YhEGJQ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "collection_list_6iVWqy": {
       "type": "collection-list",
       "blocks": {
@@ -422,6 +448,7 @@
   },
   "order": [
     "slideshow",
+    "rich_text_fMLAg9",
     "collection_list_6iVWqy",
     "featured_collection_t7zYLb",
     "rich_text_FW8QPp",
