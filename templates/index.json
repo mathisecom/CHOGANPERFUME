@@ -15,6 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/1768230911_cover.webp",
+            "mobile_image": "shopify://shop_images/rgthree.compare._temp_cptrp_00001_maoat_1768267538_fb7792bc-71c7-4d62-a7f0-36e85ba9f88f.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -27,7 +29,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 16,
             "background": "",
             "background_gradient": ""
           }
@@ -40,7 +42,7 @@
         "full_width": true,
         "allow_transparent_header": true,
         "show_initial_transition": false,
-        "image_size": "auto",
+        "image_size": "sm",
         "controls_type": "numbers",
         "transition_type": "fade_with_text",
         "autoplay": true,
