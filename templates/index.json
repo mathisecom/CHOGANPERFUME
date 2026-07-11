@@ -195,10 +195,25 @@
             "collection": "",
             "image": "shopify://shop_images/Luxury_Collection_Olfazeta_After_8bd18c01-b9a9-481d-9a64-08126ed04c99.webp",
             "subheading": "",
-            "title": "",
+            "title": "Luxury",
+            "url": "shopify://collections/luxury",
+            "heading_tag": "h4",
+            "text_position": "place-self-end text-end",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_nnDix8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/olfazeta_collection_millesime_1_After.webp",
+            "subheading": "",
+            "title": "Millésime",
             "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h4",
+            "text_position": "place-self-end text-end",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -210,10 +225,10 @@
             "collection": "",
             "image": "shopify://shop_images/1712067996_documents.pdf_1__After_After.webp",
             "subheading": "",
-            "title": "",
+            "title": "Crème Corps",
             "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h4",
+            "text_position": "place-self-end text-end",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -225,10 +240,10 @@
             "collection": "",
             "image": "shopify://shop_images/Gel_douche_Hover_After.webp",
             "subheading": "",
-            "title": "",
+            "title": "Gels Douche",
             "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h4",
+            "text_position": "place-self-end text-end",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -237,6 +252,7 @@
       },
       "block_order": [
         "collection_ky9DGr",
+        "collection_nnDix8",
         "collection_dh3exn",
         "collection_THHJrp"
       ],
