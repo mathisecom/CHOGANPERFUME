@@ -340,24 +340,49 @@
         "image_kW3Xyt": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_43.webp",
             "url": ""
           }
         },
         "image_WFWKpc": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_42.webp",
             "url": ""
           }
         },
         "image_CXrqK8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_41.webp",
             "url": ""
           }
         },
         "image_xfQjQD": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_44.webp",
+            "url": ""
+          }
+        },
+        "image_UNr8PA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_45.webp",
+            "url": ""
+          }
+        },
+        "image_JRDqWf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_40.webp",
+            "url": ""
+          }
+        },
+        "image_VJWB7r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_46.webp",
             "url": ""
           }
         }
@@ -366,7 +391,10 @@
         "image_kW3Xyt",
         "image_WFWKpc",
         "image_CXrqK8",
-        "image_xfQjQD"
+        "image_xfQjQD",
+        "image_UNr8PA",
+        "image_JRDqWf",
+        "image_VJWB7r"
       ],
       "name": "SS - Scrolling logo cloud #5",
       "settings": {
@@ -378,14 +406,14 @@
         "heading_size": 18,
         "heading_size_mobile": 18,
         "heading_height": 130,
-        "scrolling_velocity": 30,
-        "scrolling_velocity_mobile": 30,
+        "scrolling_velocity": 24,
+        "scrolling_velocity_mobile": 20,
         "scrolling_direction": "left",
         "pause_hover": false,
         "scrolling_gap": 70,
         "scrolling_gap_mobile": 30,
         "card_width_desktop": 130,
-        "card_width_mobile": 100,
+        "card_width_mobile": 130,
         "heading_color": "#121212",
         "layout_bg_color": "#FFFFFF",
         "layout_border_color": "#121212",
