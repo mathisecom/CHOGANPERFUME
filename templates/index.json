@@ -138,7 +138,7 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "collection": "",
+        "collection": "parfum-femme",
         "products": [],
         "full_width": true,
         "stack_products": false,
@@ -275,11 +275,73 @@
         "heading_gradient": ""
       }
     },
+    "imagewithicons_ntyNrL": {
+      "type": "imagewithicons",
+      "blocks": {
+        "feature_WUwCME": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/fabriquefrance.svg",
+            "title": "Fabrication Française",
+            "desc": "Tous nos parfums prennent vie en France, avec cœur, passion et conviction."
+          }
+        },
+        "feature_qmiHex": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/picrogramme_aspirateur_baiham.svg",
+            "title": "Artisanat",
+            "desc": "Chaque détail est soigné avec exigence, du geste de création jusqu'au parfum final."
+          }
+        },
+        "feature_df3RiF": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/unique.svg",
+            "title": "Créations uniques et originales",
+            "desc": "Nos senteurs racontent une histoire, une émotion, un souvenir, loin des tendances éphémères."
+          }
+        }
+      },
+      "block_order": [
+        "feature_WUwCME",
+        "feature_qmiHex",
+        "feature_df3RiF"
+      ],
+      "name": "Texte + Image atouts",
+      "settings": {
+        "max_width": 1500,
+        "image_position": "right",
+        "gap_desktop": 80,
+        "gap_mobile": 28,
+        "radius": 16,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "section_bg": "#FFFFFF",
+        "text_color": "#1a1a1a",
+        "title": "L'art de parfumer votre Cocon",
+        "intro": "<p>Chez <strong>Olfazeta</strong>, nous apportons une touche de bien-être au quotidien. Nos parfums créent une atmosphère agréable, chaleureuse et confortable dans votre intérieur.</p>",
+        "image_ratio": "1 / 1",
+        "image_ratio_mobile": "1 / 1",
+        "title_size": 32,
+        "title_weight": "500",
+        "intro_size": 16,
+        "feature_title_size": 16,
+        "feature_desc_size": 15,
+        "title_size_mobile": 26,
+        "intro_size_mobile": 13,
+        "feature_title_size_mobile": 15,
+        "feature_desc_size_mobile": 14,
+        "icon_size": 44,
+        "icon_size_mobile": 38,
+        "feature_gap": 28
+      }
+    },
     "featured_collection_wV9rrf": {
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "collection": "",
+        "collection": "parfum-homme",
         "products": [],
         "full_width": true,
         "stack_products": false,
@@ -415,9 +477,9 @@
         "card_width_desktop": 130,
         "card_width_mobile": 130,
         "heading_color": "#121212",
-        "layout_bg_color": "#FFFFFF",
+        "layout_bg_color": "#ffffff",
         "layout_border_color": "#121212",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "border_color": "#121212",
         "margin_top": 0,
         "margin_bottom": 0,
@@ -595,6 +657,7 @@
     "featured_collection_t7zYLb",
     "rich_text_FW8QPp",
     "collection_list_Aih89M",
+    "imagewithicons_ntyNrL",
     "featured_collection_wV9rrf",
     "rich_text_VRUcrj",
     "logoscroll_K87fBa",
