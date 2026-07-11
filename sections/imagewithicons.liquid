@@ -1,0 +1,287 @@
+{%- comment -%}
+  Section : Texte + Image avec liste d'atouts (style "L'art de parfumer votre Cocon")
+  - 100% personnalisable via l'éditeur de thème
+  - Taille de toutes les typographies réglable (PC + mobile)
+  - Police Epilogue (avec repli sur la police du thème)
+  - Responsive : image à droite sur PC, au-dessus sur mobile
+  Installation : Boutique en ligne > Thèmes > Modifier le code >
+  Sections > Ajouter une nouvelle section > "texte-image-atouts" > coller ce code
+{%- endcomment -%}
+
+{%- style -%}
+  #TxtImg-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    background: {{ section.settings.section_bg }};
+    font-family: 'Epilogue', var(--font-body-family, sans-serif);
+  }
+  #TxtImg-{{ section.id }} .txtimg__wrapper {
+    max-width: {{ section.settings.max_width }}px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: {{ section.settings.gap_desktop }}px;
+    align-items: center;
+  }
+  {%- if section.settings.image_position == 'left' -%}
+  #TxtImg-{{ section.id }} .txtimg__media { order: -1; }
+  {%- endif -%}
+
+  /* ---------- TEXTE ---------- */
+  #TxtImg-{{ section.id }} .txtimg__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 620px;
+    {%- if section.settings.image_position == 'left' -%}
+    justify-self: start;
+    {%- else -%}
+    justify-self: end;
+    {%- endif -%}
+    width: 100%;
+  }
+  #TxtImg-{{ section.id }} .txtimg__title {
+    font-family: 'Epilogue', var(--font-heading-family, sans-serif);
+    font-size: {{ section.settings.title_size }}px;
+    font-weight: {{ section.settings.title_weight }};
+    line-height: 1.2;
+    margin: 0;
+    color: {{ section.settings.text_color }};
+  }
+  #TxtImg-{{ section.id }} .txtimg__intro {
+    font-size: {{ section.settings.intro_size }}px;
+    line-height: 1.7;
+    margin: 0;
+    color: {{ section.settings.text_color }};
+  }
+  #TxtImg-{{ section.id }} .txtimg__intro p { margin: 0 0 10px; }
+  #TxtImg-{{ section.id }} .txtimg__intro p:last-child { margin-bottom: 0; }
+  #TxtImg-{{ section.id }} .txtimg__intro strong { font-weight: 700; }
+
+  /* ---------- ATOUTS ---------- */
+  #TxtImg-{{ section.id }} .txtimg__features {
+    display: flex;
+    flex-direction: column;
+    gap: {{ section.settings.feature_gap }}px;
+    margin-top: 8px;
+  }
+  #TxtImg-{{ section.id }} .txtimg__feature {
+    display: grid;
+    grid-template-columns: {{ section.settings.icon_size }}px 1fr;
+    gap: 20px;
+    align-items: center;
+  }
+  #TxtImg-{{ section.id }} .txtimg__feature-icon {
+    width: {{ section.settings.icon_size }}px;
+    height: {{ section.settings.icon_size }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #TxtImg-{{ section.id }} .txtimg__feature-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #TxtImg-{{ section.id }} .txtimg__feature-title {
+    font-size: {{ section.settings.feature_title_size }}px;
+    font-weight: 700;
+    margin: 0 0 4px;
+    color: {{ section.settings.text_color }};
+  }
+  #TxtImg-{{ section.id }} .txtimg__feature-desc {
+    font-size: {{ section.settings.feature_desc_size }}px;
+    line-height: 1.6;
+    margin: 0;
+    color: {{ section.settings.text_color }};
+  }
+
+  /* ---------- IMAGE ---------- */
+  #TxtImg-{{ section.id }} .txtimg__media {
+    border-radius: {{ section.settings.radius }}px;
+    overflow: hidden;
+    aspect-ratio: {{ section.settings.image_ratio }};
+  }
+  #TxtImg-{{ section.id }} .txtimg__media img,
+  #TxtImg-{{ section.id }} .txtimg__media .txtimg__placeholder {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  #TxtImg-{{ section.id }} .txtimg__placeholder { background: #dfe4ea; }
+
+  /* ---------- MOBILE ---------- */
+  @media screen and (max-width: 749px) {
+    #TxtImg-{{ section.id }} .txtimg__wrapper {
+      grid-template-columns: 1fr;
+      gap: {{ section.settings.gap_mobile }}px;
+    }
+    #TxtImg-{{ section.id }} .txtimg__media {
+      order: -1;
+      aspect-ratio: {{ section.settings.image_ratio_mobile }};
+    }
+    #TxtImg-{{ section.id }} .txtimg__content {
+      max-width: 100%;
+      gap: 18px;
+    }
+    #TxtImg-{{ section.id }} .txtimg__title { font-size: {{ section.settings.title_size_mobile }}px; }
+    #TxtImg-{{ section.id }} .txtimg__intro { font-size: {{ section.settings.intro_size_mobile }}px; }
+    #TxtImg-{{ section.id }} .txtimg__feature {
+      grid-template-columns: {{ section.settings.icon_size_mobile }}px 1fr;
+      gap: 16px;
+    }
+    #TxtImg-{{ section.id }} .txtimg__feature-icon {
+      width: {{ section.settings.icon_size_mobile }}px;
+      height: {{ section.settings.icon_size_mobile }}px;
+    }
+    #TxtImg-{{ section.id }} .txtimg__feature-title { font-size: {{ section.settings.feature_title_size_mobile }}px; }
+    #TxtImg-{{ section.id }} .txtimg__feature-desc { font-size: {{ section.settings.feature_desc_size_mobile }}px; }
+  }
+{%- endstyle -%}
+
+{%- comment -%} Chargement de secours de la police Epilogue (ne fait rien si le thème la charge déjà) {%- endcomment -%}
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+
+<div id="TxtImg-{{ section.id }}">
+  <div class="txtimg__wrapper">
+
+    <div class="txtimg__content">
+      {%- if section.settings.title != blank -%}
+        <h2 class="txtimg__title">{{ section.settings.title }}</h2>
+      {%- endif -%}
+
+      {%- if section.settings.intro != blank -%}
+        <div class="txtimg__intro">{{ section.settings.intro }}</div>
+      {%- endif -%}
+
+      {%- if section.blocks.size > 0 -%}
+        <div class="txtimg__features">
+          {%- for block in section.blocks -%}
+            <div class="txtimg__feature" {{ block.shopify_attributes }}>
+              <div class="txtimg__feature-icon">
+                {%- if block.settings.icon != blank -%}
+                  {{ block.settings.icon | image_url: width: 120 | image_tag: loading: 'lazy', alt: block.settings.title }}
+                {%- endif -%}
+              </div>
+              <div>
+                {%- if block.settings.title != blank -%}
+                  <h3 class="txtimg__feature-title">{{ block.settings.title }}</h3>
+                {%- endif -%}
+                {%- if block.settings.desc != blank -%}
+                  <p class="txtimg__feature-desc">{{ block.settings.desc }}</p>
+                {%- endif -%}
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+
+    <div class="txtimg__media">
+      {%- if section.settings.image != blank -%}
+        {{ section.settings.image | image_url: width: 1400 | image_tag: loading: 'lazy', alt: section.settings.image.alt | default: section.settings.title }}
+      {%- else -%}
+        <div class="txtimg__placeholder">{{ 'image' | placeholder_svg_tag }}</div>
+      {%- endif -%}
+    </div>
+
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Texte + Image atouts",
+  "tag": "section",
+  "class": "section-texte-image-atouts",
+  "max_blocks": 6,
+  "settings": [
+    { "type": "header", "content": "Mise en page" },
+    { "type": "range", "id": "max_width", "min": 1000, "max": 1800, "step": 20, "unit": "px", "label": "Largeur maximale", "default": 1500 },
+    { "type": "select", "id": "image_position", "label": "Position de l'image (PC)", "default": "right",
+      "options": [
+        { "value": "right", "label": "À droite" },
+        { "value": "left", "label": "À gauche" }
+      ]
+    },
+    { "type": "range", "id": "gap_desktop", "min": 20, "max": 160, "step": 10, "unit": "px", "label": "Espace texte / image (PC)", "default": 80 },
+    { "type": "range", "id": "gap_mobile", "min": 12, "max": 60, "step": 4, "unit": "px", "label": "Espace texte / image (mobile)", "default": 28 },
+    { "type": "range", "id": "radius", "min": 0, "max": 40, "step": 2, "unit": "px", "label": "Arrondi de l'image", "default": 16 },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Espace haut", "default": 60 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 120, "step": 4, "unit": "px", "label": "Espace bas", "default": 60 },
+
+    { "type": "header", "content": "Couleurs" },
+    { "type": "color", "id": "section_bg", "label": "Fond de la section", "default": "#FFFFFF" },
+    { "type": "color", "id": "text_color", "label": "Couleur du texte", "default": "#1a1a1a" },
+
+    { "type": "header", "content": "Contenu" },
+    { "type": "text", "id": "title", "label": "Titre", "default": "L'art de parfumer votre Cocon" },
+    { "type": "richtext", "id": "intro", "label": "Texte d'introduction", "default": "<p>Chez <strong>Olfazeta</strong>, nous apportons une touche de bien-être au quotidien. Nos parfums créent une atmosphère agréable, chaleureuse et confortable dans votre intérieur.</p>" },
+    { "type": "image_picker", "id": "image", "label": "Image" },
+    { "type": "select", "id": "image_ratio", "label": "Format de l'image (PC)", "default": "1 / 1",
+      "options": [
+        { "value": "1 / 1", "label": "Carré (1:1)" },
+        { "value": "4 / 5", "label": "Portrait (4:5)" },
+        { "value": "4 / 3", "label": "Paysage (4:3)" },
+        { "value": "16 / 9", "label": "Large (16:9)" }
+      ]
+    },
+    { "type": "select", "id": "image_ratio_mobile", "label": "Format de l'image (mobile)", "default": "1 / 1",
+      "options": [
+        { "value": "1 / 1", "label": "Carré (1:1)" },
+        { "value": "4 / 5", "label": "Portrait (4:5)" },
+        { "value": "4 / 3", "label": "Paysage (4:3)" },
+        { "value": "16 / 9", "label": "Large (16:9)" }
+      ]
+    },
+
+    { "type": "header", "content": "Tailles de texte — PC" },
+    { "type": "range", "id": "title_size", "min": 20, "max": 60, "step": 2, "unit": "px", "label": "Titre", "default": 32 },
+    { "type": "select", "id": "title_weight", "label": "Graisse du titre", "default": "500",
+      "options": [
+        { "value": "400", "label": "Normal" },
+        { "value": "500", "label": "Médium" },
+        { "value": "600", "label": "Semi-gras" },
+        { "value": "700", "label": "Gras" }
+      ]
+    },
+    { "type": "range", "id": "intro_size", "min": 12, "max": 24, "step": 1, "unit": "px", "label": "Texte d'introduction", "default": 16 },
+    { "type": "range", "id": "feature_title_size", "min": 12, "max": 26, "step": 1, "unit": "px", "label": "Titre des atouts", "default": 16 },
+    { "type": "range", "id": "feature_desc_size", "min": 11, "max": 22, "step": 1, "unit": "px", "label": "Description des atouts", "default": 15 },
+
+    { "type": "header", "content": "Tailles de texte — Mobile" },
+    { "type": "range", "id": "title_size_mobile", "min": 18, "max": 44, "step": 2, "unit": "px", "label": "Titre", "default": 26 },
+    { "type": "range", "id": "intro_size_mobile", "min": 11, "max": 20, "step": 1, "unit": "px", "label": "Texte d'introduction", "default": 15 },
+    { "type": "range", "id": "feature_title_size_mobile", "min": 11, "max": 22, "step": 1, "unit": "px", "label": "Titre des atouts", "default": 15 },
+    { "type": "range", "id": "feature_desc_size_mobile", "min": 10, "max": 18, "step": 1, "unit": "px", "label": "Description des atouts", "default": 14 },
+
+    { "type": "header", "content": "Atouts (icônes)" },
+    { "type": "range", "id": "icon_size", "min": 24, "max": 80, "step": 2, "unit": "px", "label": "Taille des icônes (PC)", "default": 44 },
+    { "type": "range", "id": "icon_size_mobile", "min": 20, "max": 64, "step": 2, "unit": "px", "label": "Taille des icônes (mobile)", "default": 38 },
+    { "type": "range", "id": "feature_gap", "min": 8, "max": 60, "step": 2, "unit": "px", "label": "Espace entre les atouts", "default": 28 }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Atout",
+      "settings": [
+        { "type": "image_picker", "id": "icon", "label": "Icône (image PNG/SVG)" },
+        { "type": "text", "id": "title", "label": "Titre", "default": "Fabrication Française" },
+        { "type": "textarea", "id": "desc", "label": "Description", "default": "Tous nos parfums prennent vie en France, avec cœur, passion et conviction." }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Texte + Image atouts",
+      "blocks": [
+        { "type": "feature", "settings": { "title": "Fabrication Française", "desc": "Tous nos parfums prennent vie en France, avec cœur, passion et conviction." } },
+        { "type": "feature", "settings": { "title": "Artisanat", "desc": "Chaque détail est soigné avec exigence, du geste de création jusqu'au parfum final." } },
+        { "type": "feature", "settings": { "title": "Créations uniques et originales", "desc": "Nos senteurs racontent une histoire, une émotion, un souvenir, loin des tendances éphémères." } }
+      ]
+    }
+  ]
+}
+{% endschema %}
