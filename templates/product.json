@@ -261,9 +261,9 @@
         "card_width_desktop": 130,
         "card_width_mobile": 120,
         "heading_color": "#121212",
-        "layout_bg_color": "#FFFFFF",
+        "layout_bg_color": "#ffffff",
         "layout_border_color": "#121212",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "border_color": "#121212",
         "margin_top": 0,
         "margin_bottom": 0,
@@ -278,6 +278,69 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
+      }
+    },
+    "imagewithicons_JCCqzP": {
+      "type": "imagewithicons",
+      "blocks": {
+        "feature_8ARPef": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/fabriquefrance.svg",
+            "title": "Fabrication Française",
+            "desc": "Tous nos parfums prennent vie en France, avec cœur, passion et conviction."
+          }
+        },
+        "feature_qkDYYK": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/picrogramme_aspirateur_baiham.svg",
+            "title": "Artisanat",
+            "desc": "Chaque détail est soigné avec exigence, du geste de création jusqu'au parfum final."
+          }
+        },
+        "feature_RAfGrr": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/unique.svg",
+            "title": "Créations uniques et originales",
+            "desc": "Nos senteurs racontent une histoire, une émotion, un souvenir, loin des tendances éphémères."
+          }
+        }
+      },
+      "block_order": [
+        "feature_8ARPef",
+        "feature_qkDYYK",
+        "feature_RAfGrr"
+      ],
+      "name": "Texte + Image atouts",
+      "settings": {
+        "max_width": 1500,
+        "image_position": "right",
+        "gap_desktop": 80,
+        "gap_mobile": 28,
+        "radius": 16,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "section_bg": "#FFFFFF",
+        "text_color": "#1a1a1a",
+        "title": "L'art de parfumer votre Cocon",
+        "intro": "<p>Chez <strong>Olfazeta</strong>, nous apportons une touche de bien-être au quotidien. Nos parfums créent une atmosphère agréable, chaleureuse et confortable dans votre intérieur.</p>",
+        "image": "shopify://shop_images/CREA_1080X1080_-_2026-05-11T184413.584.webp",
+        "image_ratio": "1 / 1",
+        "image_ratio_mobile": "1 / 1",
+        "title_size": 32,
+        "title_weight": "500",
+        "intro_size": 16,
+        "feature_title_size": 16,
+        "feature_desc_size": 15,
+        "title_size_mobile": 26,
+        "intro_size_mobile": 13,
+        "feature_title_size_mobile": 15,
+        "feature_desc_size_mobile": 14,
+        "icon_size": 44,
+        "icon_size_mobile": 38,
+        "feature_gap": 28
       }
     },
     "testimonials_TyzdhN": {
@@ -368,6 +431,7 @@
     "rich_text_zJBf4f",
     "logoscroll_B6FyVh",
     "testimonials_TyzdhN",
+    "imagewithicons_JCCqzP",
     "related-products"
   ]
 }
