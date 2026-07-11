@@ -120,7 +120,7 @@
         "full_width": true,
         "stack_collections": true,
         "collections_per_row_mobile": "2",
-        "collections_per_row": 3,
+        "collections_per_row": 2,
         "show_progress_bar": false,
         "subheading": "",
         "title": "",
@@ -181,7 +181,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#FAF7F6",
+        "background": "#faf7f6",
         "background_gradient": "",
         "text_color": ""
       }
@@ -268,7 +268,7 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "#FAF7F6",
+        "background": "#faf7f6",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -390,7 +390,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "#FAF7F6",
+        "testimonial_card_background": "#faf7f6",
         "testimonial_card_text_color": ""
       }
     },
