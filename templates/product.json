@@ -27,7 +27,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "h3"
           }
         },
         "badges": {
@@ -52,6 +52,7 @@
         },
         "separator": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
         },
         "variant_picker": {
@@ -152,12 +153,12 @@
         "recommendations_count": 6,
         "products": [],
         "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
+        "stack_products": false,
+        "show_progress_bar": true,
         "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "You may also like",
+        "title": "Vous Aimerez Aussi",
         "content": "",
         "background": "",
         "background_gradient": "",
