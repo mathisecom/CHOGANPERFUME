@@ -443,9 +443,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Sofia B.",
+            "title": "Parfait J'adopte !",
+            "content": "<p>Je commence à utiliser le numéro 241 la senteur est très bien. Parfait j'adopte. Merci</p>"
           }
         },
         "testimonial_Yn4cyU": {
@@ -455,8 +455,8 @@
             "show_rating": true,
             "rating": 5,
             "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "title": "Super parfum, odeur très agréable",
+            "content": "<p>Super parfum, odeur très agréable et le flacon est très jolie !</p>"
           }
         },
         "testimonial_YyaFRy": {
@@ -465,16 +465,40 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Julie F.",
+            "title": "Je recommande.",
+            "content": "<p>On sent que les fragrances sont complexes et de bonne qualité, semblable à l'original. Je recommande.</p>"
+          }
+        },
+        "testimonial_Vx7YEW": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Nadine G.",
+            "title": "Très très content",
+            "content": "<p>Très très content d'avoir découvert Olfazeta Le N 129 est incroyablement similaire.</p>"
+          }
+        },
+        "testimonial_jFn6qk": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Caroline A.",
+            "title": "L’odeur est vraiment semblable",
+            "content": "<p>L’odeur est vraiment semblable au parfum de référence et l'étui est super pratique.</p>"
           }
         }
       },
       "block_order": [
         "testimonial_pPnbCi",
         "testimonial_Yn4cyU",
-        "testimonial_YyaFRy"
+        "testimonial_YyaFRy",
+        "testimonial_Vx7YEW",
+        "testimonial_jFn6qk"
       ],
       "name": "Testimonials",
       "settings": {
