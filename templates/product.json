@@ -280,6 +280,90 @@
         "lazy": true
       }
     },
+    "testimonials_TyzdhN": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_gccx7g": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Sofia B.",
+            "title": "Parfait J'adopte !",
+            "content": "<p>Je commence à utiliser le numéro 241 la senteur est très bien. Parfait j'adopte. Merci</p>"
+          }
+        },
+        "testimonial_Ew44tN": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Super parfum, odeur très agréable",
+            "content": "<p>Super parfum, odeur très agréable et le flacon est très jolie !</p>"
+          }
+        },
+        "testimonial_eTLebj": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Julie F.",
+            "title": "Je recommande.",
+            "content": "<p>On sent que les fragrances sont complexes et de bonne qualité, semblable à l'original. Je recommande.</p>"
+          }
+        },
+        "testimonial_PP9LFt": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Nadine G.",
+            "title": "Très très content",
+            "content": "<p>Très très content d'avoir découvert Olfazeta Le N 129 est incroyablement similaire.</p>"
+          }
+        },
+        "testimonial_qajQCA": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Caroline A.",
+            "title": "L’odeur est vraiment semblable",
+            "content": "<p>L’odeur est vraiment semblable au parfum de référence et l'étui est super pratique.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_gccx7g",
+        "testimonial_Ew44tN",
+        "testimonial_eTLebj",
+        "testimonial_PP9LFt",
+        "testimonial_qajQCA"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "#fcfbf9",
+        "testimonial_card_text_color": ""
+      }
+    },
     "imagewithicons_JCCqzP": {
       "type": "imagewithicons",
       "blocks": {
@@ -341,66 +425,6 @@
         "icon_size": 44,
         "icon_size_mobile": 38,
         "feature_gap": 28
-      }
-    },
-    "testimonials_TyzdhN": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_gccx7g": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_Ew44tN": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_eTLebj": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_gccx7g",
-        "testimonial_Ew44tN",
-        "testimonial_eTLebj"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "#fcfbf9",
-        "testimonial_card_text_color": ""
       }
     },
     "related-products": {
